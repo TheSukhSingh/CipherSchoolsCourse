@@ -19,8 +19,12 @@ string grade(int marks){
   else if(marks > 60) return "BC";
   else if(marks > 50) return "CD";
   else if(marks > 40) return "DD";
-  else return "Fail";
-  
+  else return "Fail";  
+}
+
+int sumOfNr(int nr){
+  if(nr < 10) return nr;
+  return (nr%10) + sumOfNr(nr/10);
 }
 
 int main(){
