@@ -40,6 +40,7 @@ void setter(string s, int a, string n, int i){
 
 void hacker(student s){
   cout << s.passcode << " " << s.age << endl;
+  cout << endl;
 }
 
 class bestfriend{
